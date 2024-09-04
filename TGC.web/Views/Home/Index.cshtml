@@ -1,0 +1,92 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Gallery-Cafe</p>
+</div>
+
+@*---Top-Bar-Start----*@
+@*---Top-Bar-End----*@
+
+@*---Header-Start----*@
+<header class="header">
+    <a class="logo"><i class="fas fa-utensils"></i>KOFFE</a>
+    <nav class="navbar">
+
+        <a href="#">Home</a>
+        <a href="~/Home/About">About</a>
+        <a href="#">Gallery</a>
+        <a href="#">Menu</a>
+        <a href="~/Home/Contact">Reservation</a>
+
+    </nav>
+    <div class="header-icon">
+        <i class="fas fa-search" id="search-icon"></i>
+        <a class="fas fa-bag-shopping"></a>
+        <i class="fas fa-bars" id="hamberger"></i>
+    </div>
+</header>
+@*---Header-End----*@
+
+@*---Search Bar-Start----*@
+<div class="search-section">
+    <form action="" id="search-form">
+        <input type="search" name="" id="search-box" placeholder="Search Food..." />
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="search-close"></i>
+    </form>
+</div>
+@*---Search Bar-End----*@
+
+
+<section class="home" id="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper wrap">
+            <div class="swiper-slide slide" style="background-image:url(../../Content/img/home1.jpg); background-repeat:no-repeat;">
+                <div class="home-content">
+                    <span>Outstanding Food</span>
+                    <h2>Sri Lankan</h2>
+                    <a>Menu</a>
+                </div>
+                @*<img src="~/Content/img/2.png" id="india1"/>*@
+            </div>
+            <div class="swiper-slide slide" style="background-image:url(../../Content/img/home2.jpg); background-repeat:no-repeat;">
+                <div class="home-content">
+                    <span>Outstanding Food</span>
+                    <h2>Indian</h2>
+                    <a>Menu</a>
+                </div>
+                @*<img src="~/Content/img/2.png" id="india1" />*@
+            </div>
+            <div class="swiper-slide slide" style="background-image:url(../../Content/img/home3.jpg); background-repeat:no-repeat;">
+                <div class="home-content">
+                    <span>Outstanding Food</span>
+                    <h2>Italian</h2>
+                    <a>Menu</a>
+                </div>
+                @*<img src="~/Content/img/2.png" id="india1" />*@
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="~/Content/img/about-bk.png" alt="about-background" />
+    </div>
+    <div class="about-content">
+        <h3>Welcome to Gallery Cafe</h3>
+        <p>
+            how to make a complete responsive food / restaurant website design using html css and vanilla javascript step by step.
+            create a complete responsive restaurant website design template using html css and vanilla javascript tutorial for beginners.
+        </p>
+        <a>Read more</a>
+        <div class="about-icon-container">
+            <div>
+                <img src="" />
+            </div>
+        </div>
+    </div>
+</section>
