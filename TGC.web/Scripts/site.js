@@ -37,3 +37,17 @@ var swiper = new Swiper(".home-slider", {
         delay: 5000,
     },
 });
+
+
+function showCategory(categoryId) {
+    const categories = document.querySelectorAll('.food-category');
+    categories.forEach(category => {
+        category.style.display = 'none';
+    });
+    document.getElementById(categoryId).style.display = 'block';
+}
+
+// Set default category
+document.addEventListener('DOMContentLoaded', function () {
+    showCategory('sri-lankan');
+});

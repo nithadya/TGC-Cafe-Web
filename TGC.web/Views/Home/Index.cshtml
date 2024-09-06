@@ -12,14 +12,14 @@
 
 @*---Header-Start----*@
 <header class="header">
-    <a class="logo"><i class="fas fa-utensils"></i>KOFFE</a>
+    <a class="logo" style="text-decoration:none;"><i class="fas fa-utensils"></i>KOFFE</a>
     <nav class="navbar">
 
-        <a href="#">Home</a>
-        <a href="~/Home/About">About</a>
-        <a href="#">Gallery</a>
-        <a href="#">Menu</a>
-        <a href="~/Home/Contact">Reservation</a>
+        <a style="text-decoration:none;" href="#">Home</a>
+        <a style="text-decoration:none;" href="~/Home/About">About</a>
+        <a style="text-decoration:none;" href="#">Gallery</a>
+        <a style="text-decoration:none;" href="#">Menu</a>
+        <a style="text-decoration:none;" href="~/Home/Contact">Reservation</a>
 
     </nav>
     <div class="header-icon">
@@ -86,6 +86,477 @@
         <div class="about-icon-container">
             <div>
                 <img src="" />
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section style="background-image: url(assets/images/menu-bg.png);"
+         class="our-menu section bg-light repeat-img" id="menu">
+    <div class="sec-wp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="sec-title text-center mb-5">
+                        <p class="sec-sub-title mb-3">our menu</p>
+                        <h2 class="h2-title">wake up early, <span>eat fresh & healthy</span></h2>
+                        <div class="sec-title-shape mb-4">
+                            <img src="assets/images/title-shape.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-tab-wp">
+                <div class="row">
+                    <div class="col-lg-12 m-auto">
+                        <div class="menu-tab text-center">
+                            <ul class="filters">
+                                <div class="filter-active"></div>
+                                <li class="filter" data-filter=".all, .breakfast, .lunch, .dinner">
+                                    <img src="assets/images/menu-1.png" alt="">
+                                    All
+                                </li>
+                                <li class="filter" data-filter=".breakfast">
+                                    <img src="assets/images/menu-2.png" alt="">
+                                    Breakfast
+                                </li>
+                                <li class="filter" data-filter=".lunch">
+                                    <img src="assets/images/menu-3.png" alt="">
+                                    Lunch
+                                </li>
+                                <li class="filter" data-filter=".dinner">
+                                    <img src="assets/images/menu-4.png" alt="">
+                                    Dinner
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-list-row">
+                <div class="row g-xxl-5 bydefault_show" id="menu-dish">
+                    <div class="col-lg-4 col-sm-6 dish-box-wp breakfast" data-cat="breakfast">
+                        <div class="dish-box text-center">
+                            <div class="dist-img">
+                                <img src="assets/images/dish/1.png" alt="">
+                            </div>
+                            <div class="dish-rating">
+                                5
+                                <i class="uil uil-star"></i>
+                            </div>
+                            <div class="dish-title">
+                                <h3 class="h3-title">Fresh Chicken Veggies</h3>
+                                <p>120 calories</p>
+                            </div>
+                            <div class="dish-info">
+                                <ul>
+                                    <li>
+                                        <p>Type</p>
+                                        <b>Non Veg</b>
+                                    </li>
+                                    <li>
+                                        <p>Persons</p>
+                                        <b>2</b>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dist-bottom-row">
+                                <ul>
+                                    <li>
+                                        <b>Rs. 499</b>
+                                    </li>
+                                    <li>
+                                        <button class="dish-add-btn">
+                                            <i class="uil uil-plus"></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="col-lg-4 col-sm-6 dish-box-wp breakfast" data-cat="breakfast">
+                        <div class="dish-box text-center">
+                            <div class="dist-img">
+                                <img src="assets/images/dish/2.png" alt="">
+                            </div>
+                            <div class="dish-rating">
+                                4.3
+                                <i class="uil uil-star"></i>
+                            </div>
+                            <div class="dish-title">
+                                <h3 class="h3-title">Grilled Chicken</h3>
+                                <p>80 calories</p>
+                            </div>
+                            <div class="dish-info">
+                                <ul>
+                                    <li>
+                                        <p>Type</p>
+                                        <b>Non Veg</b>
+                                    </li>
+                                    <li>
+                                        <p>Persons</p>
+                                        <b>1</b>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dist-bottom-row">
+                                <ul>
+                                    <li>
+                                        <b>Rs. 359</b>
+                                    </li>
+                                    <li>
+                                        <button class="dish-add-btn">
+                                            <i class="uil uil-plus"></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="col-lg-4 col-sm-6 dish-box-wp lunch" data-cat="lunch">
+                        <div class="dish-box text-center">
+                            <div class="dist-img">
+                                <img src="assets/images/dish/3.png" alt="">
+                            </div>
+                            <div class="dish-rating">
+                                4
+                                <i class="uil uil-star"></i>
+                            </div>
+                            <div class="dish-title">
+                                <h3 class="h3-title">Panner Noodles</h3>
+                                <p>100 calories</p>
+                            </div>
+                            <div class="dish-info">
+                                <ul>
+                                    <li>
+                                        <p>Type</p>
+                                        <b>Veg</b>
+                                    </li>
+                                    <li>
+                                        <p>Persons</p>
+                                        <b>2</b>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dist-bottom-row">
+                                <ul>
+                                    <li>
+                                        <b>Rs. 149</b>
+                                    </li>
+                                    <li>
+                                        <button class="dish-add-btn">
+                                            <i class="uil uil-plus"></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="col-lg-4 col-sm-6 dish-box-wp lunch" data-cat="lunch">
+                        <div class="dish-box text-center">
+                            <div class="dist-img">
+                                <img src="assets/images/dish/4.png" alt="">
+                            </div>
+                            <div class="dish-rating">
+                                4.5
+                                <i class="uil uil-star"></i>
+                            </div>
+                            <div class="dish-title">
+                                <h3 class="h3-title">Chicken Noodles</h3>
+                                <p>120 calories</p>
+                            </div>
+                            <div class="dish-info">
+                                <ul>
+                                    <li>
+                                        <p>Type</p>
+                                        <b>Non Veg</b>
+                                    </li>
+                                    <li>
+                                        <p>Persons</p>
+                                        <b>2</b>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dist-bottom-row">
+                                <ul>
+                                    <li>
+                                        <b>Rs. 379</b>
+                                    </li>
+                                    <li>
+                                        <button class="dish-add-btn">
+                                            <i class="uil uil-plus"></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5 -->
+                    <div class="col-lg-4 col-sm-6 dish-box-wp dinner" data-cat="dinner">
+                        <div class="dish-box text-center">
+                            <div class="dist-img">
+                                <img src="assets/images/dish/5.png" alt="">
+                            </div>
+                            <div class="dish-rating">
+                                5
+                                <i class="uil uil-star"></i>
+                            </div>
+                            <div class="dish-title">
+                                <h3 class="h3-title">Bread Boiled Egg</h3>
+                                <p>120 calories</p>
+                            </div>
+                            <div class="dish-info">
+                                <ul>
+                                    <li>
+                                        <p>Type</p>
+                                        <b>Non Veg</b>
+                                    </li>
+                                    <li>
+                                        <p>Persons</p>
+                                        <b>2</b>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dist-bottom-row">
+                                <ul>
+                                    <li>
+                                        <b>Rs. 99</b>
+                                    </li>
+                                    <li>
+                                        <button class="dish-add-btn">
+                                            <i class="uil uil-plus"></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="col-lg-4 col-sm-6 dish-box-wp dinner" data-cat="dinner">
+                        <div class="dish-box text-center">
+                            <div class="dist-img">
+                                <img src="assets/images/dish/6.png" alt="">
+                            </div>
+                            <div class="dish-rating">
+                                5
+                                <i class="uil uil-star"></i>
+                            </div>
+                            <div class="dish-title">
+                                <h3 class="h3-title">Immunity Dish</h3>
+                                <p>120 calories</p>
+                            </div>
+                            <div class="dish-info">
+                                <ul>
+                                    <li>
+                                        <p>Type</p>
+                                        <b>Veg</b>
+                                    </li>
+                                    <li>
+                                        <p>Persons</p>
+                                        <b>2</b>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dist-bottom-row">
+                                <ul>
+                                    <li>
+                                        <b>Rs. 159</b>
+                                    </li>
+                                    <li>
+                                        <button class="dish-add-btn">
+                                            <i class="uil uil-plus"></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="menu-container">
+    <div class="menu-navigation">
+        <button class="nav-btn" onclick="showCategory('sri-lankan')"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><rect x="1" y="4" width="30" height="24" rx="4" ry="4" fill="#f6c24c"></rect><path d="M27,4H5c-2.209,0-4,1.791-4,4V24c0,2.209,1.791,4,4,4H27c2.209,0,4-1.791,4-4V8c0-2.209-1.791-4-4-4Zm3,20c0,1.654-1.346,3-3,3H5c-1.654,0-3-1.346-3-3V8c0-1.654,1.346-3,3-3H27c1.654,0,3,1.346,3,3V24Z" opacity=".15"></path><path d="M27,5H5c-1.657,0-3,1.343-3,3v1c0-1.657,1.343-3,3-3H27c1.657,0,3,1.343,3,3v-1c0-1.657-1.343-3-3-3Z" fill="#fff" opacity=".2"></path><path fill="#21514d" d="M4 7H7V25H4z"></path><path fill="#dd7b2e" d="M7 7H10V25H7z"></path><path fill="#821e39" d="M12 7H28V25H12z"></path><path d="M26.036,12.846c-.144-.309-.65-.141-.576,.183-1.659-1.738-5.703-2.139-4.346,1.104,.308,.419,.194-.145,.387-.206,.475,.489,5.415-.34,3.006,1.122-.842-.088-3.723,.724-3.976-.344,.388,.238,.119-.232,.104-.474,.23,.082,.147-1.507-.055-1.505,.278-.233,.332-.549,.374-.869-.443,.874-1.107-.482-1.373,.309-.266-.303-.751-.487-.73,.032-.232-.192-.629-.259-.989-.169,.307,.598-.759,.462-1.12,.593-.943-1.353-.838,1.046,.313,1.279l-.026-.204c.126,.124,.324,.203,.323-.032,.052,.096,.213,.287,.319,.411-.202,.137-2.147-.919-1.426-.031-.119,.075-.211,.562-.269,.686,.147-.014,.414-.034,.546-.068-.001,.002-.139,.252-.14,.254,.149-.03,.376-.066,.509-.137,.05,.126,.279,.315,.332,.05,.213,.614,.338-.025,.565,.125-.581,.578-1.767,1.354-1.436,2.428-.167-.183-.701-.677-.923-.89l.054-.024-.018-.009c.356-.231,.153-.732-.252-.686,.883-6.913-.97-5.185-.844,.011-.64-.074-.564,.756,.021,.795-.034,.022-.057,.118-.02,.172-.164,.026-.124,.278,.023,.349-.083,.082-.055,.202,.042,.258-.055,.105-.008,.238,.096,.28-.018,.032-.012,.079-.016,.117-.403-.247-.473,.405-.001,.306-.342,.228,.152,.516-.124,.784-.427-.375-.438,.416,.012,.385-.023,.038-.246,.191-.285,.223,.402-.11,.411,.455,.72,.301,.084-.249,.243-.288,.509-.298-.037-.031-.258-.195-.285-.227,.499,.026,.414-.772,.018-.379-.293-.257,.199-.556-.139-.816,.45,.202,.474-.407-.006-.302,.134-.054,.19,.059,.314-.058,.285,.08-.011,.922,.356,.88,.354-.403,.901,1.096,1.585-.008,.838,.181,1.475,1.871,.302,1.751-.61-.218-1.02,.97-.34,.569,.118,.222,.409,.024,.561,.025,.315,.066,.891,.174,1.139-.073,.016-.846,.417-.581,.785-1.183-1.735-.642,1.656-1.805,2.228-1.735-.039,.739,1.175,1.534,.7,2.405-.051,.122-.741,.057-.798,.199-.293,.195-.233,.664,.149,.383,.172-.071,.399,.243,.59-.037,.108,.165,.425,.175,.517-.004,.156,.11,.352,.187,.483,.084,.073,.109,.244-.009,.363-.084,.1,.167,.32,.16,.468,.038,.158-.042,.449,.241,.602-.039,.797,.441,.418-.309,.286-.629-.082-.284,.952-.744,.339-.905-1.085-.841,.995-3.012-.301-3.993,1.586-1.498-.956-1.992-2.144-1.612-.739,.195-.564-.806-1.087-.178-.244-.26,.107-.45,.367-.543-.265-.234-.734-.259-.921,.085-.728-1.054,.86-.08,.609-.884,.543,.053,.614,.651,.254,1.018,.481-.017,.979-.382,.747-.895,.456,.173,.254,.558,.142,.844,.192,.15,.534-.106,.598-.318,.27,.367,1.012,.647,.542-.053,.373,.484,1.923,1.273,1.664,.062Zm-2.276,6.944c.341-.332,.165-.447-.211-.529-.081-1.158,2.104,.889,.066,1.326-.052-.325-.207-.428,.145-.797Z" fill="#f6c24c"></path></svg>Sri Lankan</button>
+        <button class="nav-btn" onclick="showCategory('indian')"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="#fff" d="M1 11H31V21H1z"></path><path d="M5,4H27c2.208,0,4,1.792,4,4v4H1v-4c0-2.208,1.792-4,4-4Z" fill="#e06535"></path><path d="M5,20H27c2.208,0,4,1.792,4,4v4H1v-4c0-2.208,1.792-4,4-4Z" transform="rotate(180 16 24)" fill="#2c6837"></path><path d="M27,4H5c-2.209,0-4,1.791-4,4V24c0,2.209,1.791,4,4,4H27c2.209,0,4-1.791,4-4V8c0-2.209-1.791-4-4-4Zm3,20c0,1.654-1.346,3-3,3H5c-1.654,0-3-1.346-3-3V8c0-1.654,1.346-3,3-3H27c1.654,0,3,1.346,3,3V24Z" opacity=".15"></path><path d="M16,12.292c-2.048,0-3.708,1.66-3.708,3.708s1.66,3.708,3.708,3.708,3.708-1.66,3.708-3.708-1.66-3.708-3.708-3.708Zm3.041,4.109c-.01,.076,.042,.145,.117,.157-.033,.186-.08,.367-.143,.54-.071-.028-.152,.006-.181,.077-.029,.071,.004,.151,.073,.182-.04,.085-.083,.167-.13,.248l-1.611-1.069-.592-.249c.013-.026,.024-.053,.034-.081l.595,.242,1.895,.383-1.833-.616-.636-.087c.006-.028,.009-.057,.011-.087l.638,.08,1.93-.12-1.93-.12-.638,.08c-.002-.03-.005-.059-.011-.087l.636-.087,1.833-.616-1.895,.383-.595,.242c-.009-.028-.021-.055-.034-.081l.592-.249,1.611-1.069c.047,.081,.09,.163,.13,.248-.07,.031-.103,.111-.073,.182,.029,.071,.11,.105,.181,.077,.063,.173,.111,.354,.143,.54-.075,.012-.127,.081-.117,.157,.01,.076,.078,.129,.154,.121,.008,.092,.013,.185,.013,.279s-.005,.187-.013,.279c-.075-.008-.144,.045-.154,.121Zm-.584-2.462c-.059,.048-.07,.134-.023,.194,.046,.06,.132,.072,.194,.028,.053,.076,.104,.155,.15,.236l-1.731,.861-.512,.388c-.016-.024-.034-.047-.054-.069l.508-.394,1.28-1.45-1.45,1.28-.394,.508c-.022-.019-.045-.038-.069-.054l.388-.512,.861-1.731c.081,.047,.16,.097,.236,.15-.045,.061-.033,.147,.028,.194,.061,.046,.147,.036,.194-.023,.071,.06,.141,.123,.207,.189,.066,.066,.129,.135,.189,.207Zm-2.177-1.133c-.008,.075,.045,.144,.121,.154,.076,.01,.145-.042,.157-.117,.186,.033,.367,.08,.54,.143-.028,.071,.006,.152,.077,.181,.071,.029,.151-.004,.182-.073,.085,.04,.167,.083,.248,.13l-1.069,1.611-.249,.592c-.026-.013-.053-.024-.081-.034l.242-.595,.383-1.895-.616,1.833-.087,.636c-.028-.006-.057-.009-.087-.011l.08-.638-.12-1.93-.12,1.93,.08,.638c-.03,.002-.059,.005-.087,.011l-.087-.636-.616-1.833,.383,1.895,.242,.595c-.028,.009-.055,.021-.081,.034l-.249-.592-1.069-1.611c.081-.047,.163-.09,.248-.13,.031,.07,.111,.103,.182,.073,.071-.029,.105-.11,.077-.181,.173-.063,.354-.111,.54-.143,.012,.075,.081,.127,.157,.117,.076-.01,.129-.078,.121-.154,.092-.008,.185-.013,.279-.013s.187,.005,.279,.013Zm-3.113,4.368c-.029-.071-.11-.105-.181-.077-.063-.173-.111-.354-.143-.54,.075-.012,.127-.081,.117-.157-.01-.076-.078-.129-.154-.121-.008-.092-.013-.185-.013-.279s.005-.187,.013-.279c.075,.008,.144-.045,.154-.121,.01-.076-.042-.145-.117-.157,.033-.186,.08-.367,.143-.54,.071,.028,.152-.006,.181-.077,.029-.071-.004-.151-.073-.182,.04-.085,.083-.167,.13-.248l1.611,1.069,.592,.249c-.013,.026-.024,.053-.034,.081l-.595-.242-1.895-.383,1.833,.616,.636,.087c-.006,.028-.009,.057-.011,.087l-.638-.08-1.93,.12,1.93,.12,.638-.08c.002,.03,.005,.059,.011,.087l-.636,.087-1.833,.616,1.895-.383,.595-.242c.009,.028,.021,.055,.034,.081l-.592,.249-1.611,1.069c-.047-.081-.09-.163-.13-.248,.07-.031,.103-.111,.073-.182Zm.772-3.63c.048,.059,.134,.07,.194,.023,.06-.046,.072-.132,.028-.194,.076-.053,.155-.104,.236-.15l.861,1.731,.388,.512c-.024,.016-.047,.034-.069,.054l-.394-.508-1.45-1.28,1.28,1.45,.508,.394c-.019,.022-.038,.045-.054,.069l-.512-.388-1.731-.861c.047-.081,.097-.16,.15-.236,.061,.045,.147,.033,.194-.028,.046-.061,.036-.147-.023-.194,.06-.071,.123-.141,.189-.207s.135-.129,.207-.189Zm-.395,4.518c.059-.048,.07-.134,.023-.194-.046-.06-.132-.072-.194-.028-.053-.076-.104-.155-.15-.236l1.731-.861,.512-.388c.016,.024,.034,.047,.054,.069l-.508,.394-1.28,1.45,1.45-1.28,.394-.508c.022,.019,.045,.038,.069,.054l-.388,.512-.861,1.731c-.081-.047-.16-.097-.236-.15,.045-.061,.033-.147-.028-.194-.061-.046-.147-.036-.194,.023-.071-.06-.141-.123-.207-.189-.066-.066-.129-.135-.189-.207Zm2.177,1.133c.008-.075-.045-.144-.121-.154-.076-.01-.145,.042-.157,.117-.186-.033-.367-.08-.54-.143,.028-.071-.006-.152-.077-.181-.071-.029-.151,.004-.182,.073-.085-.04-.167-.083-.248-.13l1.069-1.611,.249-.592c.026,.013,.053,.024,.081,.034l-.242,.595-.383,1.895,.616-1.833,.087-.636c.028,.006,.057,.009,.087,.011l-.08,.638,.12,1.93,.12-1.93-.08-.638c.03-.002,.059-.005,.087-.011l.087,.636,.616,1.833-.383-1.895-.242-.595c.028-.009,.055-.021,.081-.034l.249,.592,1.069,1.611c-.081,.047-.163,.09-.248,.13-.031-.07-.111-.103-.182-.073-.071,.029-.105,.11-.077,.181-.173,.063-.354,.111-.54,.143-.012-.075-.081-.127-.157-.117-.076,.01-.129,.078-.121,.154-.092,.008-.185,.013-.279,.013s-.187-.005-.279-.013Zm2.341-.738c-.048-.059-.134-.07-.194-.023-.06,.046-.072,.132-.028,.194-.076,.053-.155,.104-.236,.15l-.861-1.731-.388-.512c.024-.016,.047-.034,.069-.054l.394,.508,1.45,1.28-1.28-1.45-.508-.394c.019-.022,.038-.045,.054-.069l.512,.388,1.731,.861c-.047,.081-.097,.16-.15,.236-.061-.045-.147-.033-.194,.028-.046,.061-.036,.147,.023,.194-.06,.071-.123,.141-.189,.207s-.135,.129-.207,.189Z" fill="#2c2c6b"></path><path d="M27,5H5c-1.657,0-3,1.343-3,3v1c0-1.657,1.343-3,3-3H27c1.657,0,3,1.343,3,3v-1c0-1.657-1.343-3-3-3Z" fill="#fff" opacity=".2"></path></svg>Indian</button>
+        <button class="nav-btn" onclick="showCategory('chinese')"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><rect x="1" y="4" width="30" height="24" rx="4" ry="4" fill="#db362f"></rect><path d="M27,4H5c-2.209,0-4,1.791-4,4V24c0,2.209,1.791,4,4,4H27c2.209,0,4-1.791,4-4V8c0-2.209-1.791-4-4-4Zm3,20c0,1.654-1.346,3-3,3H5c-1.654,0-3-1.346-3-3V8c0-1.654,1.346-3,3-3H27c1.654,0,3,1.346,3,3V24Z" opacity=".15"></path><path fill="#ff0" d="M7.958 10.152L7.19 7.786 6.421 10.152 3.934 10.152 5.946 11.614 5.177 13.979 7.19 12.517 9.202 13.979 8.433 11.614 10.446 10.152 7.958 10.152z"></path><path fill="#ff0" d="M12.725 8.187L13.152 8.898 13.224 8.072 14.032 7.886 13.269 7.562 13.342 6.736 12.798 7.361 12.035 7.037 12.461 7.748 11.917 8.373 12.725 8.187z"></path><path fill="#ff0" d="M14.865 10.372L14.982 11.193 15.37 10.46 16.187 10.602 15.61 10.007 15.997 9.274 15.253 9.639 14.675 9.044 14.793 9.865 14.048 10.23 14.865 10.372z"></path><path fill="#ff0" d="M15.597 13.612L16.25 13.101 15.421 13.13 15.137 12.352 14.909 13.149 14.081 13.179 14.769 13.642 14.541 14.439 15.194 13.928 15.881 14.391 15.597 13.612z"></path><path fill="#ff0" d="M13.26 15.535L13.298 14.707 12.78 15.354 12.005 15.062 12.46 15.754 11.942 16.402 12.742 16.182 13.198 16.875 13.236 16.047 14.036 15.827 13.26 15.535z"></path><path d="M27,5H5c-1.657,0-3,1.343-3,3v1c0-1.657,1.343-3,3-3H27c1.657,0,3,1.343,3,3v-1c0-1.657-1.343-3-3-3Z" fill="#fff" opacity=".2"></path></svg>Chinese</button>
+        <button class="nav-btn" onclick="showCategory('italian')"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="#fff" d="M10 4H22V28H10z"></path><path d="M5,4h6V28H5c-2.208,0-4-1.792-4-4V8c0-2.208,1.792-4,4-4Z" fill="#41914d"></path><path d="M25,4h6V28h-6c-2.208,0-4-1.792-4-4V8c0-2.208,1.792-4,4-4Z" transform="rotate(180 26 16)" fill="#bf393b"></path><path d="M27,4H5c-2.209,0-4,1.791-4,4V24c0,2.209,1.791,4,4,4H27c2.209,0,4-1.791,4-4V8c0-2.209-1.791-4-4-4Zm3,20c0,1.654-1.346,3-3,3H5c-1.654,0-3-1.346-3-3V8c0-1.654,1.346-3,3-3H27c1.654,0,3,1.346,3,3V24Z" opacity=".15"></path><path d="M27,5H5c-1.657,0-3,1.343-3,3v1c0-1.657,1.343-3,3-3H27c1.657,0,3,1.343,3,3v-1c0-1.657-1.343-3-3-3Z" fill="#fff" opacity=".2"></path></svg>Italian</button>
+    </div>
+    <div class="menu-slider">
+        <div class="food-category" id="sri-lankan">
+            <h2>Sri Lankan Food</h2>
+            <div class="food-list">
+                <!-- Sri Lankan food cards go here -->
+                <div class="food-card">
+                    <img src="srilankan1.jpg" alt="Sri Lankan Food 1">
+                    <h3>Food Name 1</h3>
+                    <p>Price: $10</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <div class="food-card">
+                    <img src="srilankan2.jpg" alt="Sri Lankan Food 2">
+                    <h3>Food Name 2</h3>
+                    <p>Price: $12</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <div class="food-card">
+                    <img src="srilankan2.jpg" alt="Sri Lankan Food 2">
+                    <h3>Food Name 2</h3>
+                    <p>Price: $12</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <div class="food-card">
+                    <img src="srilankan2.jpg" alt="Sri Lankan Food 2">
+                    <h3>Food Name 2</h3>
+                    <p>Price: $12</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <div class="food-card">
+                    <img src="srilankan2.jpg" alt="Sri Lankan Food 2">
+                    <h3>Food Name 2</h3>
+                    <p>Price: $12</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <div class="food-card">
+                    <img src="srilankan2.jpg" alt="Sri Lankan Food 2">
+                    <h3>Food Name 2</h3>
+                    <p>Price: $12</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <div class="food-card">
+                    <img src="srilankan2.jpg" alt="Sri Lankan Food 2">
+                    <h3>Food Name 2</h3>
+                    <p>Price: $12</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <!-- Add more Sri Lankan food cards as needed -->
+            </div>
+        </div>
+        <div class="food-category" id="indian">
+            <h2>Indian Food</h2>
+            <div class="food-list">
+                <!-- Indian food cards go here -->
+                <div class="food-card">
+                    <img src="indian1.jpg" alt="Indian Food 1">
+                    <h3>Food Name 1</h3>
+                    <p>Price: $8</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <div class="food-card">
+                    <img src="srilankan2.jpg" alt="Sri Lankan Food 2">
+                    <h3>Food Name 2</h3>
+                    <p>Price: $12</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <div class="food-card">
+                    <img src="srilankan2.jpg" alt="Sri Lankan Food 2">
+                    <h3>Food Name 2</h3>
+                    <p>Price: $12</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <div class="food-card">
+                    <img src="srilankan2.jpg" alt="Sri Lankan Food 2">
+                    <h3>Food Name 2</h3>
+                    <p>Price: $12</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <div class="food-card">
+                    <img src="srilankan2.jpg" alt="Sri Lankan Food 2">
+                    <h3>Food Name 2</h3>
+                    <p>Price: $12</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <div class="food-card">
+                    <img src="srilankan2.jpg" alt="Sri Lankan Food 2">
+                    <h3>Food Name 2</h3>
+                    <p>Price: $12</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <div class="food-card">
+                    <img src="srilankan2.jpg" alt="Sri Lankan Food 2">
+                    <h3>Food Name 2</h3>
+                    <p>Price: $12</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <div class="food-card">
+                    <img src="srilankan2.jpg" alt="Sri Lankan Food 2">
+                    <h3>Food Name 2</h3>
+                    <p>Price: $12</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <div class="food-card">
+                    <img src="indian2.jpg" alt="Indian Food 2">
+                    <h3>Food Name 2</h3>
+                    <p>Price: $11</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <!-- Add more Indian food cards as needed -->
+            </div>
+        </div>
+        <div class="food-category" id="chinese">
+            <h2>Chinese Food</h2>
+            <div class="food-list">
+                <!-- Chinese food cards go here -->
+                <div class="food-card">
+                    <img src="chinese1.jpg" alt="Chinese Food 1">
+                    <h3>Food Name 1</h3>
+                    <p>Price: $15</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <div class="food-card">
+                    <img src="chinese2.jpg" alt="Chinese Food 2">
+                    <h3>Food Name 2</h3>
+                    <p>Price: $14</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <!-- Add more Chinese food cards as needed -->
+            </div>
+        </div>
+        <div class="food-category" id="italian">
+            <h2>Italian Food</h2>
+            <div class="food-list">
+                <!-- Italian food cards go here -->
+                <div class="food-card">
+                    <img src="italian1.jpg" alt="Italian Food 1">
+                    <h3>Food Name 1</h3>
+                    <p>Price: $18</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <div class="food-card">
+                    <img src="italian2.jpg" alt="Italian Food 2">
+                    <h3>Food Name 2</h3>
+                    <p>Price: $20</p>
+                    <button class="pre-order-btn">Pre-order</button>
+                </div>
+                <!-- Add more Italian food cards as needed -->
             </div>
         </div>
     </div>
