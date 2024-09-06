@@ -180,13 +180,19 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\Style.css" />
+    <Content Include="Content\img\china1.png" />
+    <Content Include="Content\img\china2.png" />
+    <Content Include="Content\img\china3.png" />
     <Content Include="Content\img\home1.jpg" />
     <Content Include="Content\img\home2.jpg" />
     <Content Include="Content\img\home3.jpg" />
+    <Content Include="Content\img\indian1.png" />
+    <Content Include="Content\img\indian2.png" />
+    <Content Include="Content\img\indian3.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\css\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -236,6 +242,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\Menu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
